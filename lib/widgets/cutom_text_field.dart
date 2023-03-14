@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class CustomFormTextField extends StatelessWidget {
   CustomFormTextField(
-      {this.onChanged, this.hintText, this.obsecureText = false});
+      {super.key, this.onChanged, this.hintText, this.obsecureText = false});
   String? hintText;
   bool? obsecureText;
   Function(String)? onChanged;

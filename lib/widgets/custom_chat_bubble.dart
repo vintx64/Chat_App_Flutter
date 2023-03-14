@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'constants.dart';
 
 class CustomChatBubble extends StatelessWidget {
-  CustomChatBubble({
+  const CustomChatBubble({
     super.key,
     required this.message,
   });
@@ -27,7 +27,7 @@ class CustomChatBubble extends StatelessWidget {
         ),
         child: Text(
           message.message,
-          style: TextStyle(color: Colors.white),
+          style: const TextStyle(color: Colors.white),
         ),
       ),
     );
@@ -35,7 +35,7 @@ class CustomChatBubble extends StatelessWidget {
 }
 
 class CustomChatBubbleForFriend extends StatelessWidget {
-  CustomChatBubbleForFriend({
+  const CustomChatBubbleForFriend({
     super.key,
     required this.message,
   });
@@ -58,7 +58,7 @@ class CustomChatBubbleForFriend extends StatelessWidget {
         ),
         child: Text(
           message.message,
-          style: TextStyle(color: Colors.white),
+          style: const TextStyle(color: Colors.white),
         ),
       ),
     );
